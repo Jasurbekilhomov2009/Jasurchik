@@ -6,24 +6,24 @@ import 'dart:io';
 void main(List<String> args) 
 {
   // <----------1---------->
-  // final  data = stdin.readLineSync();
+  final  data = stdin.readLineSync();
 
-  // if (data == 'Alex' || data == "alex" ) {
-  //   final dataage = int.parse(stdin.readLineSync() ?? '0');
-  //   if (dataage >= 18 && dataage < 30) {
-  //       final int dataDol = int.parse(stdin.readLineSync() ?? '0');
-  //   if(dataDol >= 100) {
-  //     print("Здорово братан у тя какое-то скучное имя (потом переименуй) и welcome в вечеринку");
-  //   } else {
-  //     print("А пошёл ты нафиг братанчик");
-  //   }
-  //   } else {
-  //     print("Старпёр");
-  //   }
+  if (data == 'Alex' || data == "alex" ) {
+    final dataage = int.parse(stdin.readLineSync() ?? '0');
+    if (dataage >= 18 && dataage < 30) {
+        final int dataDol = int.parse(stdin.readLineSync() ?? '0');
+    if(dataDol >= 100) {
+      print("Здорово братан у тя какое-то скучное имя (потом переименуй) и welcome в вечеринку");
+    } else {
+      print("А пошёл ты нафиг братанчик");
+    }
+    } else {
+      print("Старпёр");
+    }
  
-  // } else {
-  //   print("Нет не мы сюда пропускаем Алексов и богатых");
-  // };
+  } else {
+    print("Нет не мы сюда пропускаем Алексов и богатых");
+  };
   // <------------1----------->
 
 
@@ -50,15 +50,15 @@ void main(List<String> args)
 
    
    // <----------3---------->
-   final List arr = ["Alex"];
-   final quest = stdin.readLineSync();
+  //  final List arr = ["Alex"];
+  //  final quest = stdin.readLineSync();
 
-   if(quest == arr[0]) {
-    print("Всё OK"); 
+  //  if(quest == arr[0]) {
+  //   print("Всё OK"); 
    
-   } else  {
-    print("No lie");
-   }
+  //  } else  {
+  //   print("No lie");
+  //  }
 
    // <----------3------------>
   
