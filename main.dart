@@ -50,15 +50,15 @@ void main(List<String> args)
 
    
    // <----------3---------->
-  //  final List arr = ["Alex"];
-  //  final quest = stdin.readLineSync();
+   final List arr = ["Alex"];
+   final quest = stdin.readLineSync();
 
-  //  if(quest == arr[0]) {
-  //   print("Всё OK"); 
+   if(quest == arr[0]) {
+    print("Всё OK"); 
    
-  //  } else  {
-  //   print("No lie");
-  //  }
+   } else  {
+    print("No lie");
+   }
 
    // <----------3------------>
   
